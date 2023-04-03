@@ -14,10 +14,12 @@ matplotlib = "^3.7.1"
 seaborn = "^0.12.2"
 plotly-express = "^0.4.1"
 missingno = "^0.5.2"
+nltk = "^3.8.1"
 
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.22.0"
+nb-black = {git = "https://github.com/dnanhkhoa/nb_black.git", rev = "be0c810503867abc4a5e9d05ba75a16fce57dfee"}
 
 [build-system]
 requires = ["poetry-core"]
