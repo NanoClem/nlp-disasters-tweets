@@ -686,27 +686,6 @@ files = [
 traitlets = "*"
 
 [[package]]
-name = "missingno"
-version = "0.5.2"
-description = "Missing data visualization module for Python."
-category = "main"
-optional = false
-python-versions = "*"
-files = [
-    {file = "missingno-0.5.2-py3-none-any.whl", hash = "sha256:55782621ce09ba0f0a1d08e5bd6d6fe1946469fb03951fadf7d209911ca5b072"},
-    {file = "missingno-0.5.2.tar.gz", hash = "sha256:4a4baa9ca9f9e4e0d9402455df26b656632e94b99e87fa64c0cdbbbc722837ac"},
-]
-
-[package.dependencies]
-matplotlib = "*"
-numpy = "*"
-scipy = "*"
-seaborn = "*"
-
-[package.extras]
-tests = ["pytest", "pytest-mpl"]
-
-[[package]]
 name = "mypy-extensions"
 version = "1.0.0"
 description = "Type system extensions for programs checked with the mypy type checker."
@@ -1630,4 +1609,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "e524d70592a740501c6cebcc9ace21e2b4b7228621fb0ca511ef87c2a0b8334d"
+content-hash = "005d111490e437e5f451a04cbc5ac10368cd2e7baf23c6155d89a1fccbd7ace0"
