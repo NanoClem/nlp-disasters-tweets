@@ -17,6 +17,8 @@ tqdm = "^4.65.0"
 transformers = "^4.27.4"
 torch = "^2.0.0"
 scipy = "1.9.3"
+yake = {git = "https://github.com/LIAAD/yake"}
+scikit-learn = "^1.2.2"
 
 
 [tool.poetry.group.dev.dependencies]
